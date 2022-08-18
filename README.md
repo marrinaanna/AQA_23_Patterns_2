@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/4fngbkugysbpl7q1/branch/main?svg=true)](https://ci.appveyor.com/project/marrinaanna/aqa-23-patterns-2/branch/main)
