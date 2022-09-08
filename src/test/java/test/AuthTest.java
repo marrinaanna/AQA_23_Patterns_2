@@ -31,6 +31,8 @@ class AuthTest {
         $(By.cssSelector("[data-test-id='login'] input")).setValue(registeredUser.getLogin());
         $(By.cssSelector("[data-test-id='password'] input")).setValue(registeredUser.getPassword());
         $(By.cssSelector("[data-test-id='action-login']")).click();
+        $(By.cssSelector("[id='root']"))
+                .shouldHave(text("Личный кабинет"));
     }
 
     @Test
